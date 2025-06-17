@@ -26,20 +26,20 @@
             "role": "Developer"
         }
     ],
-    "require": {
-        "doctrine/dbal": "^3.6",
-        "illuminate/cache": "^10.23 || ^11.0",
-        "illuminate/database": "^10.23 || ^11.0",
-        "Dustiiin/laravel-http-sender": "^1.2",
-        "saloonphp/laravel-plugin": "^2.1",
-        "saloonphp/saloon": "^2.11"
-    },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/Dustiiin/laravel-http-sender"
         }
     ],
+    "require": {
+        "doctrine/dbal": "^3.6",
+        "illuminate/cache": "^10.23 || ^11.0",
+        "illuminate/database": "^10.23 || ^11.0",
+        "Dustiiin/laravel-http-sender": "v3.x-dev",
+        "saloonphp/laravel-plugin": "^2.1",
+        "saloonphp/saloon": "^2.11"
+    },
     "suggest": {
         "ext-pdo": "Required to extend the PDO driver for Cloudflare D1."
     },
